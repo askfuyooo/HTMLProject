@@ -6,9 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
-    <title>Document</title>
+    <link rel="shortcut icon" href="imgs/lolicon.ico" type="image/x-icon">
+    <title>LoL | Kezdőlap</title>
 </head>
-    <body>
-        
-    </body>
+    <div id="container">
+        <img src="imgs/lolfelirat.png" alt="League of Legends" draggable="false" id="lolfelirat">
+        <img src="imgs/yasuoldal.png" alt="Yasuo" draggable="false" id="yasuoldal">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" onclick="navClick(1)" draggable="false" id="1" onmouseover="navHover(1)" onmouseleave="navLeave()">Kezdőlap</a>
+                </li>
+                <li>
+                    <a href="#" onclick="navClick(2)" draggable="false" id="2" onmouseover="navHover(2)" onmouseleave="navLeave()">Alap hősök</a>
+                </li>
+                <li>
+                    <a href="#" onclick="navClick(3)" draggable="false" id="3" onmouseover="navHover(3)" onmouseleave="navLeave()">Történet</a>
+                </li>
+                <li>
+                    <a href="#" onclick="navClick(4)" draggable="false" id="4" onmouseover="navHover(4)" onmouseleave="navLeave()">Játékmenet</a>
+                </li>
+                <li>
+                    <a href="#" onclick="navClick(5)" draggable="false" id="5" onmouseover="navHover(5)" onmouseleave="navLeave()">Esport</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="text">
+            TEXT
+        </div>
+    </div>
 </html>

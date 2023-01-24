@@ -1,8 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 html {
     scroll-behavior: smooth;
     user-select: none;
-    background-color: grey;
+    background-color: gray;
     font-family: 'Quicksand', sans-serif;
+    margin: 0px;
+}
+/*
+HTML <img src="imgs/bg.jpg" id="background">
+
+#background {
+    width: 100%;
+    margin: 0px;
+    position: fixed;
+    filter: blur(5px);
+    z-index: -1;
+}
+*/
+#container {
+    width: 90%;
+    /*border: 5px solid black;*/
+    margin-left: 20px;
+}
+
+#text {
+    margin-top: 10px;
+    width: 75%;
+}
+
+#lolfelirat {
+    width: 30%;
+    float: right;
+    display: flex;
+    position: fixed;
+    right: 5px;
+    top: 5px;
+}
+
+#yasuoldal {
+    float: right;
+    display: flex;
+    position: fixed;
+    right: 0px;
+    bottom: -20%;
+    transform: scaleX(-1);
+}
+
+div nav ul {
+    display: inline-flex;
+    gap: 2rem;
+    width: 100%;
+}
+
+div nav ul li {
+    list-style-type: none;
+    transition: 0.5s;
+}
+
+div nav ul li a {
+    color: black;
+    font-size: larger;
+    background-color: rgba(0, 0, 5, 0.144);
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+div nav ul li:hover {
+    transform: scale(1.2);
+}
+
+/*
+div nav ul li a:hover {
+    color: #ab8744;
+    font-weight: 200;
+    background-color: rgba(32, 32, 32, 0.849);
+}
+*/
+
+div {
+    border: 5px solid black;
 }
