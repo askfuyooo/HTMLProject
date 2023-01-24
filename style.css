@@ -6,6 +6,10 @@ html {
     background-color: gray;
     font-family: 'Quicksand', sans-serif;
     margin: 0px;
+    /*
+    background-image: url('imgs/bg.jpg');
+    background-size: 100%;
+    */
 }
 /*
 HTML <img src="imgs/bg.jpg" id="background">
@@ -27,6 +31,7 @@ HTML <img src="imgs/bg.jpg" id="background">
 #text {
     margin-top: 10px;
     width: 75%;
+    text-align: justify;
 }
 
 #lolfelirat {
@@ -43,7 +48,7 @@ HTML <img src="imgs/bg.jpg" id="background">
     display: flex;
     position: fixed;
     right: 0px;
-    bottom: -20%;
+    bottom: 0px;
     transform: scaleX(-1);
 }
 
@@ -80,6 +85,6 @@ div nav ul li a:hover {
 }
 */
 
-div {
-    border: 5px solid black;
+p {
+    font-size: larger;
 }
