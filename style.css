@@ -6,25 +6,21 @@ html {
     background-color: gray;
     font-family: 'Quicksand', sans-serif;
     margin: 0px;
-    /*
-    background-image: url('imgs/bg.jpg');
-    background-size: 100%;
-    */
 }
-/*
-HTML <img src="imgs/bg.jpg" id="background">
 
 #background {
-    width: 100%;
-    margin: 0px;
+    width: 105%;
+    size: 150%;
     position: fixed;
-    filter: blur(5px);
+    display: flex;
     z-index: -1;
+    filter: blur(10px);
+    margin: -5%;
+    opacity: 40%;
 }
-*/
+
 #container {
     width: 90%;
-    /*border: 5px solid black;*/
     margin-left: 20px;
 }
 
@@ -32,6 +28,18 @@ HTML <img src="imgs/bg.jpg" id="background">
     margin-top: 10px;
     width: 75%;
     text-align: justify;
+}
+
+#textDesc a {
+    color: #ab8744;
+    text-decoration: none;
+    background-color: rgba(0, 0, 5, 0.144);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#textDesc a:hover {
+    color: black;
 }
 
 #lolfelirat {
@@ -76,14 +84,6 @@ div nav ul li a {
 div nav ul li:hover {
     transform: scale(1.2);
 }
-
-/*
-div nav ul li a:hover {
-    color: #ab8744;
-    font-weight: 200;
-    background-color: rgba(32, 32, 32, 0.849);
-}
-*/
 
 p {
     font-size: larger;
