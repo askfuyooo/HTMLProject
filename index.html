@@ -9,8 +9,8 @@
     <link rel="shortcut icon" href="imgs/lolicon.ico" type="image/x-icon">
     <title>LoL | Kezdőlap</title>
 </head>
-    <body onload="navClick(1)">
-        <img src="imgs/bg.jpg" id="background">
+    <body onload="navClick(1), checkJS()">
+        <img src="imgs/bg.jpg" id="background" draggable="false">
         <div id="container">
             <img src="imgs/lolfelirat.png" alt="League of Legends" draggable="false" id="lolfelirat">
             <img src="imgs/yasuoldal.png" alt="Yasuo" draggable="false" id="yasuoldal">
@@ -28,11 +28,23 @@
                     <li>
                         <a href="#" onclick="navClick(4)" id="4" onmouseover="navHover(4)" onmouseleave="navLeave()" draggable="false">Esport</a>
                     </li>
+                    <li>
+                        <a href="#" onclick="navClick(5)" id="5" onmouseover="navHover(5)" onmouseleave="navLeave()" draggable="false">Projekt</a>
+                    </li>
                 </ul>
             </nav>
             <div id="text">
                 <p id="textDesc"></p>
             </div>
+            <img src="imgs/up-arrow.png" alt="⬆️" draggable="false" id="scroll" onclick="scrollToTop()">
+        </div>
+        <div id="noJS">
+            <h1>
+                Kedves Felhasználó!
+            </h1>
+            <h2>
+                Észleltük, hogy böngészőjében le van tiltva a JavaScript! Mivel a weboldal JavaScripten alapszik, így engedélyeznie kell, hogy az oldal működjön. Megértését köszönjük!
+            </h2>
         </div>
     </body>
 </html>
